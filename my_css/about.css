@@ -1,0 +1,289 @@
+*{margin:0; padding:0}
+/*about kfc title part*/
+
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap'); /* ***for about me title font**
+font-family: 'Piedra', cursive;
+
+*/
+
+
+
+#about_us_wrap_in3{
+	
+	/*border for mark*/
+	/*border:4px solid red;*/
+}
+
+/*about us 1st part wrap*/
+#about_us_wrap_in3 .title_part_wrap{
+	
+	/*border for mark*/
+	/*border:3px solid green;*/
+	
+	text-align:center;
+	padding:30px;
+	padding-top:0;
+	
+	overflow:hidden;
+	
+}
+/*header*/
+.title_part_wrap .head_part{
+	
+	/*border for mark*/
+	/*border:2px solid red;*/
+	
+}
+.head_part .title_name{
+	
+	color:black;
+	font-family: 'Piedra', cursive;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+/*title*/
+.title_part_wrap .title{
+	
+	/*border for mark*/
+	/*border:2px solid red;*/
+	
+	font-family: 'Open Sans', sans-serif;
+}
+.title .title_2nd_paragrapgh{
+	color:black;
+}
+
+/*about us 2nd part wrap*/
+#about_us_wrap_in3 .about_us_2nd_part_wrap{
+	
+	/*border for mark*/
+	/*border:3px solid green;*/
+	
+	display:flex;
+	justify-content:center;
+}
+
+/*all together*/
+.about_us_2nd_part_wrap .all_about_us{
+	
+	/*border for mark*/
+	/*border:2px solid red;*/
+	
+	margin-left:85px;
+	text-align:center;
+	padding:20px;
+	overflow:hidden;
+}
+.all_about_us  h2{
+	color:#C41230;
+	
+	font-weight:bold;
+
+	
+}
+.all_about_us .discribtion{
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/**********history  part*********/
+
+/*history  wrapp*/
+#history_wrap{
+	
+	/*border for mark*/
+	/*border:5px solid red;*/
+	
+	display:flex;
+	margin-top:40px;
+	
+}
+
+/*main img part*/
+#history_wrap .main_img_wrap{
+	
+	/*border for mark*/
+	/*border:4px solid green;*/
+	
+	width:40%;
+	overflow:hidden;
+}
+.main_img_wrap .img1{
+	width:422px;
+	height:239px;
+}
+
+/*describtion part */
+#history_wrap .describtion_wrap{
+	
+	/*border for mark*/
+	/*border:4px solid green;*/
+	
+	width:60%;
+}
+.describtion_wrap .discussion_part{
+	
+	/*bordet for mark*/
+	/*border:3px solid red;*/
+	
+	padding:10px;
+}
+
+.discussion_part h1{
+	color:#C41230;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.discussion_part .discussion{
+	font-family: 'Open Sans', sans-serif;
+	color:black;
+}
+/*arrow image part*/
+.describtion_wrap  .left_arrow_img_wrap{
+	
+	/*border for mark*/
+	/*border:3px solid red;*/
+}
+.left_arrow_img_wrap .left_arrow_img{
+	width:63px;
+	height:239px;
+	padding:5px;
+}
+/*****History 2 part***********/
+
+/*history 2 wrap*/
+#history_wrap_anotheer{
+	
+	/*bordder for mark*/
+	/*border:5px solid red;*/
+	
+	display:flex;
+	margin-top:40px;
+}
+
+/*main img part*/
+#history_wrap_anotheer .main_img_wrap{
+	
+	/*border for mark*/
+	/*border:4px solid green;*/
+	
+	width:60%;
+	overflow:hidden;
+}
+
+
+/*describtion part */
+#history_wrap_anotheer .describtion_wrap{
+	
+	/*border for mark*/
+	/*border:4px solid green;*/
+	
+	width:40%;
+}
+
+/*arrow image part*/
+.describtion_wrap  .right_arrow_img_wrap{
+	
+	/*border for mark*/
+	/*border:3px solid red;*/
+
+}
+.right_arrow_img_wrap .right_arrow_img{
+	width:63px;
+	height:239px;
+	padding:5px;
+	margin-left:75%;
+	overflow:hidden;
+}
+
+/*only last histoy part 10*/
+#history_wrap_last{
+	
+	/*bordder for mark*/
+	/*border:5px solid red;*/
+	
+	display:flex;
+	margin-top:40px;
+	padding-bottom:40px;
+}
+
+/*main img part*/
+#history_wrap_last .main_img_wrap{
+	
+	/*border for mark*/
+	/*border:4px solid green;*/
+	
+	width:60%;
+	overflow:hidden;
+}
+
+
+/*describtion part */
+#history_wrap_last .describtion_wrap{
+	
+	/*border for mark*/
+	/*border:4px solid green;*/
+	
+	width:40%;
+}
+
+/****history 2*****/
+
+.main_img_wrap .img2{
+	width:328px;
+	height:343px;
+}
+
+/****history 3*****/
+.main_img_wrap .img3{
+	width:450px;
+	height:300px;
+}
+
+/****history 4*****/
+.main_img_wrap .img4{
+	width:430px;
+	height:256px;
+}
+
+
+/****history 5*****/
+.main_img_wrap .img5{
+	width:428px;
+	height:250px;
+}
+
+
+/****history 6*****/
+.main_img_wrap .img6{
+	width:323px;
+	height:416px;
+}
+
+
+/****history 7*****/
+.main_img_wrap .img7{
+	width:430px;
+	height:252px;
+}
+
+/****history 8*****/
+.main_img_wrap .img8{
+	width:414px;
+	height:226px;
+}
+
+/****history 9*****/
+.main_img_wrap .img9{
+	width:302px;
+	height:410px;
+}
+
+/****history 10*****/
+.main_img_wrap .img10{
+	width:440px;
+	height:278px;
+}
+
+

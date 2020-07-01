@@ -1,0 +1,266 @@
+/*
+	1.in-->mean inside.
+*/
+*{
+	font-size:20px;
+}
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');/*font-family: 'Permanent Marker', cursive;  ***not use yet***  */
+
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap'); /*font-family: 'Piedra', cursive;
+
+	**use in nav **
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap'); /* font-family: 'Piedra', cursive;
+
+  **font for iteam add to chart button***
+  
+*/
+
+
+
+/*headaer section*/
+#full_header_wrapp{
+	background:none;
+	width:100%;
+	height:auto;
+	background:#2A2B32;
+	
+}
+	/*hr parrt*/
+.hr_inside{
+	margin-top:25px;
+	margin-bottom:30px;
+}
+
+/*content page wrapper*/
+#inside1_pg_wrap{
+	display:flex;
+	height:auto;
+	/*border for mark*/
+	/*border:5px solid red;*/
+}
+
+
+/*Nav section start*/
+
+/*nav bar of menu chart full page wrapper*/
+#inside1_pg_wrap .in1_menu_wrap{
+	/*border for mark*/
+	/*border:4px solid green;*/
+	width:25%;
+}
+
+
+	/*nav bar part-*/
+.in1_menu_wrap .in1_navbar{
+	
+	/*border for mark*/
+	/*border:3px solid red;*/
+	margin-top:180px;
+	padding:20px;
+	padding-left:10px;
+	padding-right:40px;
+}
+.in1_navbar ul{
+	list-style:none;
+}
+.in1_navbar ul li{
+	border-bottom:2px solid #940F14;
+}
+.in1_navbar ul li a{
+	display:block;
+	font-weight:bold;
+	padding:5px;
+	padding-bottom:10px;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family: 'Permanent Marker', cursive;
+	color:#1F1F1F;
+	-moz-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	font-family: 'Piedra', cursive;
+}
+.in1_navbar ul li a:hover{
+	color:#A71933;
+	transform:scale(1.1);
+}
+.in1_navbar ul li a:active{
+	color:#4267B2;
+}
+
+/*sticky part*/
+.in1_menu_wrap .fix{
+	position:fixed;
+	z-index:999999;
+	top:-130px;
+	
+}
+
+/*content of iteam in menu chart full page wrapper*/
+#inside1_pg_wrap .in1_iteam_pgwrap{
+	/*border for mark*/
+	/*border:4px solid green;*/
+	
+	width:75%;
+	overflow:hidden;
+	padding:25px;
+	background: rgb(117,9,1);
+	background: linear-gradient(90deg, rgba(117,9,1,0.42620798319327735) 0%, rgba(117,9,1,0.6811099439775911) 100%);
+	border-radius: 2% 2% 0 0;
+}
+
+/*iteam wrap */
+.in1_iteam_pgwrap .in1_content_wrap{
+	/*border for mark*/
+	/*border:3px solid red;*/
+	
+	display:flex;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+/*only iteam wrap 3*/
+.in1_iteam_pgwrap  .iteam_wrap_three{
+	display:flex;
+	justify-content:flex-start;
+}
+
+/*all iteam work togetther*/
+.in1_content_wrap .all_iteam{
+	/*border for mark*/
+	/*border:2px solid green;*/
+	
+	overflow:hidden;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.iteam_wrap_three .in1_iteam7{
+	width:40%;
+}/*chicken iteam 7 part only*/
+.iteam_wrapp_six .burger{
+	width:35%;
+}/*burger meal part iteam 4,5 part only*/
+
+.all_iteam img{
+	height:200px;
+	width:200px;
+	overflow:hidden;
+	border-radius:100%;
+	border:1px solid #DDDDDD;
+	filter:grayscale(10%);
+	transition:all 0.2s ease;
+}
+.all_iteam img{
+	
+}
+.all_iteam img:hover{
+	transform:scale(1.1);
+	filter:grayscale(0%);
+}
+.all_iteam .iteam_name{
+	color:#181715;
+	list-style:none;
+	text-decoration:none;
+	font-size:125%;
+	font-family: 'Metal Mania', cursive;
+	font-weight:bold;
+	/*hover for iteam name*/
+	-moz-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+}
+.all_iteam .iteam_name:hover{
+	color:#940F14;
+}
+.all_iteam .name_five{
+	
+}
+.all_iteam .price{
+	color:#960606 ;
+}
+.all_iteam p{
+	font-size:68%;
+	line-height:125%;
+}
+.all_iteam .chart_btn{
+	display:inline-block;
+	padding:10px 10px;
+	/*border:2px solid #B48F40;*/
+	text-decoration:none;
+	color:#B48F40;
+	background:transparent;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:75%;
+	border:none;
+	background:#FFFFFF;
+	color:#C41230;
+	font-family: 'Permanent Marker', cursive;
+	
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.all_iteam .chart_btn:hover{
+	background:#A71933;
+	color:#FFFFFF;
+}
+.all_iteam .chart_btn:active{
+	color:#dddd;
+	background: rgb(66,103,178);
+	background: linear-gradient(90deg, rgba(66,103,178,0.31976540616246496) 0%, rgba(66,103,178,0.3981967787114846) 100%);	
+}
+.all_iteam .iteam_text{
+	width:100%;
+	height:180px;
+	overflow:hidden;
+}
+.all_iteam .meal_deal{
+	width:100%;
+	height:250px;
+	overflow:hidden;
+}
+.all_iteam .text_iteam_seven{
+	height:auto;
+}
+.text_iteam_seven p{
+	width:100%;
+	
+}
+.all_iteam .iteam_name{
+	width:100%;
+	height:50px;
+}
+
+/*for snacks 4 & 5*/
+.snacks_pgwrap .snacks_iteam_wrap{
+	width:38%;
+}/*snacks 4&5 width*/
+
+
+.snacks_wrap .snacks_text{
+	height:180px;
+}/*snack's 4&5 text height from button*/
+
+
+
+/*drink iteam 1,2,3 only 
+*/
+.all_content_wrap .drink_text{
+	height:100px;
+}
+.drink_wrap .drink_iteam{
+	width:100%;
+}
